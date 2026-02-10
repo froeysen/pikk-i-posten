@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Klassikeren",
+    "price": 199,
+    "description": "En pose med godteri-pikker sendt anonymt til den som fortjener det. Inkluderer et lite kort med en personlig hilsen.",
+    "stock": 99,
+    "emoji": "🍬",
+    "tag": "Bestselger",
+    "gradient": ["#ff006e", "#8338ec"],
+    "icons": ["🍬", "🍭", "💌"]
+  },
+  {
+    "id": 2,
+    "name": "Deluxe-pakken",
+    "price": 349,
+    "description": "Dobbel dose! Ekstra stor pose med godteri-pikker, konfetti og et premium kort med din melding.",
+    "stock": 45,
+    "emoji": "🎁",
+    "tag": "Populær",
+    "gradient": ["#8338ec", "#3a86ff"],
+    "icons": ["🎁", "🍬", "🎊", "💌"]
+  },
+  {
+    "id": 3,
+    "name": "Glitter-bomben",
+    "price": 299,
+    "description": "Godteri-pikker + en glitterbombe som eksploderer når konvolutten åpnes. Ren kaos garantert.",
+    "stock": 30,
+    "emoji": "✨",
+    "tag": "Kaos",
+    "gradient": ["#ffbe0b", "#ff006e"],
+    "icons": ["✨", "💣", "🍬", "🎆"]
+  },
+  {
+    "id": 4,
+    "name": "Kontor-pakken",
+    "price": 499,
+    "description": "Sendes til arbeidsplassen i en diskret pakke. Inkluderer nok godteri til å dele med hele kontoret.",
+    "stock": 20,
+    "emoji": "💼",
+    "tag": "Pinlig",
+    "gradient": ["#06d6a0", "#118ab2"],
+    "icons": ["💼", "📦", "🍬", "😱"]
+  },
+  {
+    "id": 5,
+    "name": "Bursdagspakken",
+    "price": 399,
+    "description": "Feiring fortjener noe spesielt! Godteri-pikker med bursdagskonfetti, ballonger og et festkort.",
+    "stock": 35,
+    "emoji": "🎂",
+    "tag": "Feiring",
+    "gradient": ["#fb5607", "#ffbe0b"],
+    "icons": ["🎂", "🎈", "🍬", "🎉"]
+  },
+  {
+    "id": 6,
+    "name": "Hevn-pakken",
+    "price": 599,
+    "description": "Den ultimate pakken. Tre poser godteri, glitterbombe, konfetti OG en ekstra spicy hilsen. For de virkelig fortjente.",
+    "stock": 15,
+    "emoji": "😈",
+    "tag": "Ultimate",
+    "gradient": ["#1a1028", "#ff006e"],
+    "icons": ["😈", "🍬", "💣", "✨", "🔥"]
+  }
+]

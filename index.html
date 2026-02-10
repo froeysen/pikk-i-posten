@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pikk i Posten 📬</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="glitter-canvas"></canvas>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="logo">📬 Pikk i Posten</a>
+      <div class="nav-links">
+        <a href="#how-it-works">Slik fungerer det</a>
+        <a href="#products">Produkter</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <button class="cart-button" id="open-cart">
+        🛒 <span class="cart-count" id="cart-count"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">🇳🇴 Norges frekkeste gave</span>
+      <h1>Send en pikk<br>til noen som<br>fortjener det.</h1>
+      <p class="hero-sub">Anonymt. Morsomt. Garantert pinlig. Godteri-pikker levert rett i postkassen til din favoritt-fiende (eller bestevenn).</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">🍬 Se produkter</a>
+        <a href="#how-it-works" class="btn btn-ghost">Slik fungerer det →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">12,847</span>
+          <span class="stat-label">pikker sendt</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">anonymt</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">4.9 ⭐</span>
+          <span class="stat-label">rating</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-emoji-float">📦</div>
+      <div class="hero-emoji-float delay-1">🍆</div>
+      <div class="hero-emoji-float delay-2">💌</div>
+      <div class="hero-emoji-float delay-3">😈</div>
+      <div class="hero-emoji-float delay-4">✨</div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how-it-works" id="how-it-works">
+    <h2>Slik fungerer det</h2>
+    <p class="section-sub">Tre enkle steg til total ydmykelse</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-icon">1️⃣</div>
+        <h3>Velg pakke</h3>
+        <p>Fra klassisk godteri-pikk til full glitterbombe-kaos. Vi har noe for enhver anledning.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon">2️⃣</div>
+        <h3>Legg til adresse</h3>
+        <p>Skriv inn adressen til den heldige mottakeren. Vi sender 100% anonymt — de aner ingenting.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon">3️⃣</div>
+        <h3>Vi sender pikken</h3>
+        <p>Pakken sendes diskret med posten. Mottakeren åpner og... overraskelse! 🎉</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products-section" id="products">
+    <h2>Velg din pikk</h2>
+    <p class="section-sub">Alle pakker sendes anonymt med Posten 📮</p>
+    <div class="product-grid" id="product-grid"></div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews-section">
+    <h2>Hva folk sier</h2>
+    <p class="section-sub">Ekte anmeldelser fra ekte pikk-sendere</p>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Sendte dette til eksen min. Har aldri ledd så mye av en Snapchat-melding."</p>
+        <span class="review-author">— Anonym, Oslo</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Kontor-pakken var GULL. Sjefen min åpnet den foran hele avdelingen. Verdt hver krone."</p>
+        <span class="review-author">— Anonym, Bergen</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Glitterbomben var ren ondskap. Det er fortsatt glitter overalt hos kompisen min. 10/10."</p>
+        <span class="review-author">— Anonym, Trondheim</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" id="faq">
+    <h2>Spørsmål og svar</h2>
+    <p class="section-sub">Ja, dette er ekte. Nei, vi dømmer ikke.</p>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Er dette virkelig anonymt?</summary>
+        <p>Ja! Vi sender aldri med avsenderinfo. Mottakeren vil aldri vite hvem som sendte pikken (med mindre du forteller dem selv, såklart).</p>
+      </details>
+      <details class="faq-item">
+        <summary>Er godteriet spiselig?</summary>
+        <p>Absolutt! Alt godteriet er førsteklasses, spiselig og laget i Europa. Det er bare formen som er... kreativ. 🍬</p>
+      </details>
+      <details class="faq-item">
+        <summary>Kan jeg legge ved en personlig melding?</summary>
+        <p>Ja, alle pakker inkluderer et kort der du kan skrive hva du vil. Hold det morsomt, hold det frekt — det er opp til deg!</p>
+      </details>
+      <details class="faq-item">
+        <summary>Hvor lang er leveringstiden?</summary>
+        <p>Vi sender innen 1-2 virkedager. Normal leveringstid med Posten er 2-5 virkedager avhengig av hvor i Norge mottakeren bor.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Kan jeg sende til utlandet?</summary>
+        <p>Foreløpig sender vi kun innenfor Norge. Vi jobber med å utvide til resten av Skandinavia — stay tuned!</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">📬 Pikk i Posten</span>
+        <p>Norges frekkeste gavetjeneste siden 2024.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Vilkår</a>
+        <a href="#">Personvern</a>
+        <a href="#">Kontakt oss</a>
+      </div>
+      <p class="footer-copy">© 2024 Pikk i Posten. Alle rettigheter (og pikker) forbeholdt.</p>
+    </div>
+  </footer>
+
+  <!-- Cart panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel">
+    <div class="cart-header">
+      <h2>🛍️ Handlekurv</h2>
+      <button class="cart-close" id="cart-close">&times;</button>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-footer" id="cart-footer" style="display:none">
+      <div class="cart-total">
+        <span>Totalt</span>
+        <span id="cart-total">0 kr</span>
+      </div>
+      <button class="checkout-button">💳 Send pikken!</button>
+    </div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
